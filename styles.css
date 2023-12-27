@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+
+:root {
+    --yellow: #e6e678;
+    --green: #79a579;
+    --red: #e29c9c;
+    --brown: #382c27;
+    --white: #e5e1e5;
+}
+
+* {
+    /* border: 2px dotted #584848; */
+    background-color: var(--brown);
+    color: var(--white);
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: auto;
+}
+
+flex-container, dish-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 750px
+    }
+flex-container h2 {
+    text-align: center;
+}
+dish-container h1 {
+    text-align: center;
+}
+
+h2 {
+    padding: 10px;
+}
+
+image-recipe {
+    display: flex;
+    padding: 20px;
+}
+
+
+recipe-spacer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: end;
+}
+
+recipe-spacer ul {
+    list-style-type: none;
+}
+
+span {
+    font-family: "Noto Color Emoji";
+}
+
+dish-ingredients ul {
+    padding-left: 30px;
+    color: var(--green);
+}
+
+dish-prep ul {
+    padding-left: 30px;
+    color: var(--red);
+}
+
+dish-ingredients ul li{
+    padding: 2px;
+    color: var(--green);
+}
+
+dish-prep ul li{
+    padding: 2px;
+    color: var(--red);
+}
+
+.fancyTitle {
+    font-family: "Caesar Dressing";
+    color: var(--yellow);
+    font-size: 60px;
+    padding: 10px;
+}
+
+.ingredients {
+    color: var(--green);
+}
+
+.prepCook {
+    color: var(--red);
+}
+
+.veg {
+    height: 268px;
+}
+
+.dish-description {
+    padding: 20px;
+    font-size: 18px;
+}
+
+
